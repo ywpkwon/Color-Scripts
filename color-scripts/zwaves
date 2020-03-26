@@ -11,7 +11,7 @@ for j in f b; do
     printf -v $j$i %b "\e[${!j}${i}m"
   done
 done
-bld=$'\e[1m'
+bld=$'\e[2m'   # not bold but dim
 rst=$'\e[0m'
 inv=$'\e[7m'
 

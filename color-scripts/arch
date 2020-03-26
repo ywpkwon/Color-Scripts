@@ -15,7 +15,7 @@ initializeANSI()
   yellowf="${esc}[33m"   bluef="${esc}[34m";   
   cyanf="${esc}[36m";    purplef="${esc}[35m"   
                       
-  boldon="${esc}[1m";    
+  boldon="${esc}[2m";    # not bold but dim
   reset="${esc}[0m"
 }
 

@@ -9,7 +9,7 @@ for j in f b; do
     printf -v $j$i %b "\e[${!j}${i}m"
   done
 done
-d=$'\e[1m'
+d=$'\e[2m'
 t=$'\e[0m'
 v=$'\e[7m'
  

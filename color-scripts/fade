@@ -19,7 +19,7 @@ initializeANSI()
   yellowb="${esc}[43m"   blueb="${esc}[44m";   purpleb="${esc}[45m"
   cyanb="${esc}[46m";    whiteb="${esc}[47m"
 
-  boldon="${esc}[1m";    boldoff="${esc}[22m"
+  boldon="${esc}[7m";    boldoff="${esc}[0m"        # not bold but dim
   italicson="${esc}[3m"; italicsoff="${esc}[23m"
   ulon="${esc}[4m";      uloff="${esc}[24m"
   invon="${esc}[7m";     invoff="${esc}[27m"
